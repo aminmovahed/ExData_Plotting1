@@ -1,3 +1,4 @@
+# household_power_consumption.txt need to be in the working directory
 cat("\014")                 # clean screen
 rm(list=ls())               # clean  environment
 data=read.table("household_power_consumption.txt",sep=";")   # read data
